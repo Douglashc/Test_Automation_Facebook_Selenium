@@ -13,6 +13,8 @@ async function TestFacebook()
     await driver.findElement(By.name('firstname')).sendKeys('Michael');
     await driver.findElement(By.name("lastname")).sendKeys("Jackson");
     
+    await driver.findElement(By.name("reg_email__")).sendKeys("gokuh.dcz@gmail.com");
+    await driver.findElement(By.name("reg_email_confirmation__")).sendKeys("gokuh.dcz@gmail.com");
     
     //await driver.findElement(By.name("q")).sendKeys("Selenium Test", Key.RETURN);
 }
