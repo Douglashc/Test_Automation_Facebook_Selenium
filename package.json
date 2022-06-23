@@ -1,0 +1,24 @@
+{
+  "name": "test_automation_facebook_selenium",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene las pruebas automatizadas del registro de usuario en facebook.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Douglashc/Test_Automation_Facebook_Selenium.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Douglashc/Test_Automation_Facebook_Selenium/issues"
+  },
+  "homepage": "https://github.com/Douglashc/Test_Automation_Facebook_Selenium#readme",
+  "dependencies": {
+    "chromedriver": "^103.0.0",
+    "selenium-webdriver": "^4.2.0"
+  }
+}
