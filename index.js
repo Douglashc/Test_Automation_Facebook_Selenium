@@ -25,7 +25,7 @@ async function TestFacebook()
     await driver.findElement(By.name("sex")).click();
 
     await driver.findElement(By.name("websubmit")).click();
-    //await driver.findElement(By.name("q")).sendKeys("Selenium Test", Key.RETURN);
+
 }
 
 TestFacebook();
